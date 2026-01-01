@@ -23,8 +23,8 @@ Start your target machine by clicking the Start Machine button below. The machin
 AWS accounts can be accessed programmatically by using an Access Key ID and a Secret Access Key. For this room, both of those will be automatically configured for you. The AWS CLI will look for credentials at ~/.aws/credentials, where you should see something similar to the following:
 
 ```
-aws_access_key_id = AKIAU2VYTBGYOYXYZXYZ
-aws_secret_access_key = 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
+aws_access_key_id = AKxxxxxxxxxxxxxxxxxxxx
+aws_secret_access_key = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 Amazon Security Token Service (STS) allows us to utilise the credentials of a user that we have saved during our AWS CLI configuration. We can use the get-caller-identity call to retrieve information about the user we have configured for the AWS CLI. Let's run the following command:
